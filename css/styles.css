@@ -1,0 +1,234 @@
+
+html{
+	background: url(../img/background.jpg);
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Varta', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.5;
+/*	 background-image: linear-gradient( #0ff 0.1rem,transparent 0.1rem);
+	background-size: auto 2.7rem; */
+	color: gray;
+	width: 96rem;
+	margin: 0 auto;
+}
+
+main{padding-bottom: 5.4rem;}
+nav{	position: relative;
+	top:32%;}
+
+header ul{
+	width: 60rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top:3.5rem;
+	align-items: center;
+	margin: 0 auto; 
+
+}
+
+header a{
+	text-decoration:none;
+	color: #f7ffda;
+	font-family: 'Trade Winds', cursive; 
+}
+
+header a:hover{
+	text-shadow: 0 0 20px yellow,0 0 30px yellow,0 0 40px yellow,0 0 50px yellow;
+}
+
+header{
+		background: url(../img/dragon.svg) top/cover;
+
+		height:64.8rem;
+		margin-bottom: 29.7rem;
+}
+
+footer{
+		background: url(../img/fire-2.png) center top/cover;
+		height:40rem;
+}
+
+h1{
+	font-family: 'Trade Winds', cursive; 
+	font-size: 11.089rem;
+	color:#f7ffda;
+	text-align: center;
+	line-height: 81rem;
+	}
+
+.book-img{
+	height:43.2rem;
+	margin-left:34rem ;
+	width: 100%;
+}
+.book{
+	padding-top:2.7rem;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;}
+.part1{
+	column-count: 2;
+	padding: 2.7rem 3rem 2.7rem 3rem;
+	
+}
+
+h2{
+	font-family: 'IM Fell English SC', serif;
+	color:#980000;
+	font-size: 6.854rem;
+	text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white;
+	text-align: center;
+	background-image:url(https://wallpapercave.com/wp/jEXQ1n8.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 8.1rem auto 8.1rem auto;
+	height: 10.8rem;
+	background-attachment: fixed;
+  	background-position: top center;
+  
+}
+
+
+.img{
+	height:27rem;
+	width:96rem;
+}
+
+.part2>div:first-child{
+	display: flex;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+}
+
+.content{
+	padding: 0 3rem 0 3rem;
+	margin-top: 2.7rem;
+}
+
+.saphira{
+	display: flex;
+	margin-top: 8.1rem;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+	padding-bottom: 2.7rem;
+}
+
+.saphira div:nth-child(2){ 	
+	width: 200rem;
+	}
+
+.saphira .content{ column-gap: 3rem;}
+
+.column{
+	margin-top: 8.1rem;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+	padding-top: 2.7rem;
+	padding-bottom: 2.7rem;
+}
+
+.battle>div:first-child{
+	height: 18.9rem;
+	width:30%;
+	margin:8.1rem auto 8.1rem auto;
+}
+
+.battle>div:nth-child(2){
+	display: flex;
+	column-gap: 2rem;
+}
+
+.battle{box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;}
+
+h3{
+	font-family: 'DM Serif Text', serif;
+	font-weight: bold;
+	font-size: 2.618rem;
+	color:#980000;
+	line-height: 5.4rem;
+}
+
+.characters{
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+	padding: 2.7rem 3rem 2.7rem 3rem;
+	margin-bottom: 8.1rem;
+}
+
+.portrait-left{
+	height: 29.7rem;
+	float: left;
+	width: 20%;
+	margin-right: 2rem;
+
+}
+
+.portrait-right{
+	height: 18.9rem;
+	float: right;
+	width: 15%;
+	margin-left: 3rem;
+}
+
+.flex-container{margin-bottom: 10.908rem;}
+
+.adaptations>h3,
+.video>h3{
+	text-align: center;
+	line-height:8.1rem ;
+	text-shadow: 0 0 10px white,0 0 20px white,0 0 30px white;
+
+}
+
+.pic{
+	height: 13.5rem;
+	width: 30%;
+}
+.film{
+	margin-bottom: 8.1rem;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+	padding: 5.4rem 3rem;
+}
+
+.film div:nth-child(1){
+    position: absolute;
+    right: 57%;
+    width: 15%;    
+}
+
+.film div:nth-child(2){
+	margin-left: 37rem;
+	border-left: 1px solid gray;
+	padding-left: 2rem;
+
+}
+
+.video-game div:nth-child(2){
+	margin-left: 3rem;
+	border-right: 1px solid gray;
+	padding-right: 2rem;
+	width: 60%;
+}
+
+
+.video-game{
+	margin-bottom: 8.1rem;
+	box-shadow: 0 0 10px black,0 0 30px black,0 0 40px black;
+	padding-bottom: 5.4rem;
+	
+	padding-top: 2.7rem;
+}
+
+.video-game div:nth-child(1){
+    position: absolute;
+    left: 59%;
+    width: 14%;    
+}
+
+h4{
+	color:#980000; 
+	line-height: 5.4rem;
+}
+
+
+.source{text-align: center;}
+.source p a{margin-bottom: 5.4rem;
+color:#c9c7c7;}
